@@ -1,0 +1,194 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #2d3c49;
+}
+
+img {
+    max-width: 100%;
+}
+
+hr {
+    margin-top: 2px;
+    margin-bottom: 10px;
+    height: 5px;
+    color: #7d97ad;
+    background-color: #7d97ad;
+}
+
+h1 {
+    width: 100%;
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 48px;
+}
+
+h2 {
+    width: 100%;
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+h3 {
+    width: 100%;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.text-muted {
+    color: #7d97ad;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.udacity-box {
+    width: 50%;
+    padding: 15px;
+    margin: 0px;
+}
+
+.udacity-logo {
+    width: 75px;
+}
+
+.header-info {
+    width: 50%;
+}
+
+.horizontal-rule {
+    width: 100%;
+}
+
+.main-info {
+    width: 100%;
+}
+
+.featured-work {
+    width: 100%;
+}
+
+@media only screen and (min-width: 1000px) {
+    .container {
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .work-info {
+        width: calc((100% - 30px) / 3);
+        margin-right: 15px;
+        margin-left: 0px;
+    }
+
+    .work-info:last-of-type {
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 999px) {
+    .work-info {
+        width: calc((100% - 20px) / 3);
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+
+    .work-info:last-of-type {
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .udacity-logo {
+        width: 70px;
+    }
+}
+
+@media only screen and (max-width: 649px) {
+    .work-info {
+        width: calc((100% - 20px) / 2);
+        margin-right: 10px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .udacity-logo {
+        width: 60px;
+    }
+
+    .udacity-box {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 449px) {
+    .work-info {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .udacity-box {
+        width: 30%;
+        padding: 10px;
+    }
+
+    .header-info {
+        width: 70%;
+    }
+}
+
+
